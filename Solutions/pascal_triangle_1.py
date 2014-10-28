@@ -2,7 +2,8 @@
 # -*- coding:UTF-8 -*-
 
 '''
-Introduction: Solution of [Pascal Triangle I] in LeetCode.
+Introduction: 
+Solution of [Pascal Triangle I] in LeetCode.
 
 Created on: Oct 15, 2014
 

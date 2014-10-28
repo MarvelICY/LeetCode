@@ -2,7 +2,8 @@
 # -*- coding:UTF-8 -*-
 
 '''
-Introduction: Solution of [Minimum in Rotated Sorted Array II] in LeetCode.
+Introduction:
+Solution of [Minimum in Rotated Sorted Array II] in LeetCode.
 
 Created on: Oct 24, 2014
 
