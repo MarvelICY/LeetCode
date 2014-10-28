@@ -14,14 +14,14 @@ Created on: Oct 15, 2014
 class Solution:
     # @return a list of lists of integers
     def generate(self, numRows):
-        list=[]          
+        list = []          
         if numRows == 0:
             return list  
         list.append([1])
         for i in range(2,numRows+1):  #calculate every row of the triangle
-            templist=[1]
+            templist = [1]
             for j in range(1,i-1):
-                templist.append(list[i-2][j-1]+list[i-2][j])
+                templist.append(list[i-2][j-1] + list[i-2][j])
             templist.append(1)
             list.append(templist)
         return list
@@ -29,7 +29,7 @@ class Solution:
 #----------------------------SELF TEST----------------------------#
 
 def main():
-    solution=Solution()
+    solution = Solution()
     print solution.generate(0)
     print solution.generate(3)
     print solution.generate(5)
