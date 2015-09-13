@@ -2,7 +2,8 @@
 # -*- coding:UTF-8 -*-
 
 '''
-Introduction: Solution of [Maximum Product Subarray] in LeetCode.
+Introduction:
+Solution of [Maximum Product Subarray] in LeetCode.
 
 Created on: Oct 24, 2014
 
